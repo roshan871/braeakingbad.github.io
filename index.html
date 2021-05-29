@@ -11,23 +11,31 @@
 <body>
 
 <div class="banner">
-
+    <div class="row">
     <h1>Breaking bad characters</h1>
-
     <form action="." method="GET">
         <label>
             Search expression:
-            <input type="name" name="characters-id">
+            <select name="select" class="select">
+                <option value="Walter White">Walter White</option>
+                <option value="Jesse Pinkman">Jesse Pinkman</option>
+                <option value="Skyler White">Skyler White</option>
+                <option value="Walter White Jr.">Walter White Jr.</option>
+                <option value="Henry Schrader">Henry Schrader</option>
+                <option value="Marie Schrader">Marie Schrader</option>
+                <option value="Mike Ehrmantraut">Mike Ehrmantraut</option>
+                <option value="Saul Goodman">Saul Goodman</option>
+                <option value="Gustavo Fring">Gustavo Fring</option>
+                <option value="Hector Salamanca">Hector Salamanca</option>
+                <option value="Domingo Molina">Domingo Molina</option>
+            </select>
             <button type="submit">Search</button>
         </label>
     </form>
-
-
+    </div>
 <h2 class="searched-characters"></h2>
-
 <div class="result" id="container"></div>
 </div>
-
 <script src="./breakingbad.js"></script>
 </body>
 </html>

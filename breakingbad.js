@@ -1,6 +1,6 @@
 
 const $form = document.querySelector("form");
-const $searchInput = document.querySelector("[name=characters-id]")
+const $searchInput = document.querySelector(".select")
 const $title = document.querySelector(".searched-characters");
 const $result = document.querySelector(".result")
 
