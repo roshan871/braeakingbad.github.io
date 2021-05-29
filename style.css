@@ -6,7 +6,7 @@
     ),
     url(./image/Breaking-Bad-Logo.jpeg);
   width: 100%;
-  height: 110vh;
+  height: 105vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,6 +47,4 @@ button {
 button:hover {
   background-color: goldenrod;
   box-shadow: 4px 4px 4px rgba(192, 156, 63, 0.5);
-}
-@media only screen and (min-width: 512px) {
 }
