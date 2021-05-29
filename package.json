@@ -1,0 +1,22 @@
+{
+  "name": "braeakingbad.github.io",
+  "version": "1.0.0",
+  "description": "![name-of-you-image](<url(./image/README-cover-img.png)>)",
+  "main": "account-sample.js",
+  "homepage": "roshan871.github.io/breakingbad.github.io",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roshan871/braeakingbad.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roshan871/braeakingbad.github.io/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.0"
+  }
+}
