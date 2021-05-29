@@ -1,10 +1,10 @@
 # Breaking Bad
 
-![name-of-you-image](https://desktopwalls.net/wp-content/uploads/2014/07/Breaking%20Bad%20Logo%20Movie%20Poster%20Desktop%20Wallpaper.jpg)
+![name-of-you-image](<url(./image/README-cover-img.png)>)
 
 Hosting link : https://github.com/roshan871/braeakingbad.github.io.git
 
-git Description:
+Description:
 This website searches the following character details of the series "Breaking bad" using its API;
 .Name
 .Nickname
