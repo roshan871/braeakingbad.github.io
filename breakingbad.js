@@ -24,14 +24,12 @@ fetch(
                  const nickname = i.nickname;
                  const occupation = i.occupation;
              imageHtmlList.push(`
-               <div style="padding-left:147px;">
-                  <div style="font-size:20px; margin-left:100px; display:flex; flex-direction:column; flex-wrap:wrap">
+               <div class="bad-js">
                   <p>Nickname: ${nickname}</p>
                   <p>Birthday: ${birthday}</p>
                   <p>Ocupation: ${occupation}</p>
                   <p>Satus: ${status}</p>
-               </div>
-               <img src="${url}" style="height:350px; width:400px; border:5px solid aliceblue; border-radius: 10px; margin-right:160px" alt="${name}" />
+               <img src="${url}" alt="${name}" />
                </div>
             `);
           }

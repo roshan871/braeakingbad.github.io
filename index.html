@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 
     <title>Breaking Bad Characters</title>
 </head>
 <body>
 
-<div class="banner">
-    <div class="row">
-    <h1>Breaking bad characters</h1>
+<header>
+    <h1 id="logo">Breaking bad characters</h1>
     <form action="." method="GET">
         <label>
             Search expression:
@@ -37,13 +36,16 @@
                 <option value="Andrea Cantillo">Andrea Cantillo</option>
                 <option value="Emily Rios">Emily Rios</option>
             </select>
-            <button type="submit">Search</button>
         </label>
+        <button type="submit">Search</button>
     </form>
-    </div>
+</header>
+<div id="container">
 <h2 class="searched-characters"></h2>
-<div class="result" id="container"></div>
+<div class="result"></div>
 </div>
 <script src="./breakingbad.js"></script>
+<footer>Copyright &copy; 2021 Roshan Dahal</footer>
+</footer>
 </body>
 </html>

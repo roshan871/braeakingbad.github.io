@@ -1,0 +1,127 @@
+html {
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: tomato;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 85px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  min-width: 368px;
+  color: aliceblue;
+}
+
+header #logo {
+  font-size: 25px;
+}
+
+header label {
+  font-size: 20px;
+}
+
+header label .select {
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 45px;
+}
+
+header button {
+  width: 120px;
+  height: 35px;
+  background-color: goldenrod;
+  border: none;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 6px;
+  color: aliceblue;
+}
+
+#container {
+  padding-top: 15px;
+  width: 100%;
+  height: 79vh;
+  background-color: teal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-size: 18px;
+}
+
+#container .searched-characters {
+  color: aliceblue;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 18px;
+}
+
+footer {
+  background-color: tomato;
+  padding: 40px;
+  height: 105px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.bad-js {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: aliceblue;
+}
+
+.bad-js img {
+  margin-top: 15px;
+  width: 300px;
+  border: 5px solid aliceblue;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 512px) {
+  header {
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
