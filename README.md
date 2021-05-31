@@ -1,6 +1,6 @@
 # Breaking Bad
 
-![name-of-you-image](<url(./image/README-cover-img.png)>)
+![name-of-you-image](https://www.hdwallpaper.nu/wp-content/uploads/2017/04/breaking_bad-8.jpg)
 
 Hosting link : https://github.com/roshan871/braeakingbad.github.io.git
 
