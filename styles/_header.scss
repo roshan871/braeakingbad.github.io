@@ -1,0 +1,37 @@
+header {
+  background-color: $background-color;
+  display: flex;
+  flex-direction: row;
+  height: 85px;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 368px;
+  color: $primary-color;
+  #logo {
+    font-size: 25px;
+  }
+  label {
+    font-size: 20px;
+    .select {
+      width: 150px;
+      height: 30px;
+      border: none;
+      border-radius: 10px;
+      margin-right: 35px;
+    }
+  }
+  button {
+    width: 120px;
+    height: 35px;
+    background-color: goldenrod;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 6px;
+    color: $primary-color;
+    &:hover {
+      background-color: goldenrod;
+      box-shadow: 4px 4px 4px rgba(192, 156, 63, 0.5);
+    }
+  }
+}

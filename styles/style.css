@@ -14,7 +14,7 @@ html {
 }
 
 header {
-  background-color: tomato;
+  background-color: #396e39;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,7 +46,7 @@ header label .select {
   height: 30px;
   border: none;
   border-radius: 10px;
-  margin-right: 45px;
+  margin-right: 35px;
 }
 
 header button {
@@ -60,11 +60,19 @@ header button {
   color: aliceblue;
 }
 
+header button:hover {
+  background-color: goldenrod;
+  -webkit-box-shadow: 4px 4px 4px rgba(192, 156, 63, 0.5);
+          box-shadow: 4px 4px 4px rgba(192, 156, 63, 0.5);
+}
+
 #container {
-  padding-top: 15px;
+  margin: 0px;
   width: 100%;
   height: 79vh;
-  background-color: teal;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../image/Breaking-Bad-Logo.jpeg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/Breaking-Bad-Logo.jpeg);
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -77,6 +85,7 @@ header button {
 }
 
 #container .searched-characters {
+  margin-top: 20px;
   color: aliceblue;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -85,7 +94,7 @@ header button {
 }
 
 footer {
-  background-color: tomato;
+  background-color: #396e39;
   padding: 40px;
   height: 105px;
   text-align: center;
@@ -93,7 +102,7 @@ footer {
 }
 
 .bad-js {
-  margin: 0;
+  padding-top: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -113,7 +122,7 @@ footer {
 }
 
 .bad-js img {
-  margin-top: 15px;
+  margin-top: 5px;
   width: 300px;
   border: 5px solid aliceblue;
   border-radius: 10px;

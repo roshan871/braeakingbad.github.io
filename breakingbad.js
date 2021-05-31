@@ -27,7 +27,7 @@ fetch(
                <div class="bad-js">
                   <p>Nickname: ${nickname}</p>
                   <p>Birthday: ${birthday}</p>
-                  <p>Ocupation: ${occupation}</p>
+                  <p>Occupation: ${occupation}</p>
                   <p>Satus: ${status}</p>
                <img src="${url}" alt="${name}" />
                </div>
