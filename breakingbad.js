@@ -15,6 +15,10 @@ fetch(
       )
     .then((x) => x.json())
     .then((data) => {
+      if(data.length !=1){
+        $result.innerHTML = '<p class="empty">Wrong query!Please slect a character first</p>'
+        return;
+      }
        let imageHtmlList = [];
           for (let i of data) {
                  const url = i.img;
