@@ -1,0 +1,24 @@
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+@import "variable";
+@import "header";
+@import "homepage";
+@import "footer";
+@import "javaScript";
+
+@media screen and (max-width: 512px) {
+  header {
+    padding: 10px;
+  }
+}

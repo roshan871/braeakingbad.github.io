@@ -1,6 +1,6 @@
 # Breaking Bad
 
-![name-of-you-image](<url(./image/README-cover-img.png)>)
+![name-of-you-image](https://www.hdwallpaper.nu/wp-content/uploads/2017/04/breaking_bad-8.jpg)
 
 Hosting link : https://github.com/roshan871/braeakingbad.github.io.git
 
@@ -15,7 +15,7 @@ This website searches the following character details of the series "Breaking ba
 ```
 AS A SPECTATOR
 I WANT TO know the characters of the series
-SO THAT I can what types of characters are there in the series.
+SO THAT I can show what types of characters are there in the series.
 
 
 AS A SERIES MAKER
@@ -24,8 +24,8 @@ SO THAT SPECTATOR can enjoy the whole series with full of entertainment.
 
 
 AS A SPECTATOR
-I WANT TO  search the particular character of the series thorough this website
-SO THAT i can understand the series fully.
+I WANT TO  search one particular character of the series thorough this website
+SO THAT I can understand the series fully.
 
 
 ```

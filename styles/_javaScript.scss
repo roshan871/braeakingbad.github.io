@@ -1,0 +1,19 @@
+.bad-js {
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  color: $primary-color;
+
+  img {
+    margin-top: 5px;
+    width: 400px;
+    border: 5px solid $primary-color;
+    border-radius: 10px;
+  }
+}
+.empty {
+  color: tomato;
+}
